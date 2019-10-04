@@ -1,0 +1,27 @@
+{
+    "desired_capabilities": {
+        "platformName": "Android",
+        "platformVersion": "9",
+        "autoGrantPermissions": true,
+        "ignoreUnimportantViews": true
+    },
+
+    "url": "http://localhost:4723/wd/hub",
+
+    "cred": {
+        "user": "curry.fandango@gmail.com",
+        "pass": "Skipper33"
+    },
+
+    "appMsgs": {
+        "invalidLoginAttemptMsg": "We couldn't recognize the combination of e-mail and password.\n\nPlease go to prodoo.dk to receive a new password or register an account."
+    },
+
+    "apps": {
+        "Snapshot": {
+            "deviceName": "snapshot",
+            "appPackage": "com.prodoo.snapshot.production",
+            "appActivity": "com.prodoo.snapshot.activities.login.SplashActivity"
+        }
+    }
+}
