@@ -1,4 +1,4 @@
-from appdriver import AppiumTest, Driver, loadresource
+from .appdriver import AppiumTest, Driver, loadresource
 from unittest import TestCase
 import time
 
